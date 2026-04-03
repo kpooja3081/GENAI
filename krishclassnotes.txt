@@ -1,0 +1,66 @@
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>pip install uv
+Collecting uv
+           MB      MB/s
+Installing collected packages: uv
+Successfully installed uv-0.10.12
+
+           MB      MB/s
+Installing collected packages: uv  
+Successfully installed uv-0.10.12  
+
+[notice] A new release of pip is available: 25.2 -> 26.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip      
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv python pin 3.12
+Pinned `.python-version` to `3.12` 
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv init
+Initialized project `krish`
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv sync
+Using CPython 3.12.4 interpreter at: C:\Users\mecha\AppData\Local\Programs\Python\Python312\python.exe   
+Creating virtual environment at: .venv
+Resolved 1 package in 42ms
+Checked in 0.06ms
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv add numpy
+ + numpy==2.4.3
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>r + numpy==2.4.3
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>remove numpy
+'remove' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv remove numpy
+Resolved 1 package in 14ms
+Uninstalled 1 package in 334ms
+ - numpy==2.4.3
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>python test.py
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>u
+v python test.py
+error: unrecognized subcommand 'test.py'
+
+Usage: uv python [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv python test.py
+
+For more information, try '--help'.
+
+C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>.venv\Scripts\activate
+
+(krish) C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>uv run python test.py
+Helo world
+
+(krish) C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish>python test.py
+Helo world
+
+(krish) C:\Users\mecha\OneDrive\Desktop\Pooja_personal\Krish> 
+
+
+
